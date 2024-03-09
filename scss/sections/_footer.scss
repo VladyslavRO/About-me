@@ -1,0 +1,27 @@
+.about-footer {
+    padding: 96rem  0;
+}
+.container {
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 56rem;
+    justify-content: center;
+    text-align: center;
+}
+.footer-info {
+    margin-top: 56rem;
+    margin-bottom: 56rem;
+}
+
+.footer-logos {
+   display:grid;
+   grid-template-columns:  repeat(6, 1fr);
+   max-width: 224rem;
+   gap:16px;
+ 
+   
+   
+   
+}
