@@ -1,0 +1,30 @@
+.about {
+    padding: 96rem  0;
+    
+    
+
+   
+}
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.about-frame {
+    max-width: 475rem;
+    
+    aspect-ratio: 0.94;
+    flex-shrink: 0;
+    border: 16px solid #eab308;
+    border-radius: 24px;
+    transform: rotateY(-180deg);
+
+}
+.about-image{
+
+ 
+
+}
+.about-info {
+    margin-left: 89px;
+}
+

@@ -1,0 +1,36 @@
+.welcome {
+    
+   
+    padding: 96px 0; 
+    span{
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 169%;
+        color: #eab308;
+        margin-bottom: 24rem;
+    }
+}
+.welcome-div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.welcome-info {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 199rem;
+    @include tablet {
+        margin-right:auto;
+    }
+}
+
+
+.btn-small {
+    margin-top: 24px;
+border-radius: 4px;
+padding: 8px 20px;
+width: 123px;
+height: 43px;
+}

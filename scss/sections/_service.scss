@@ -1,0 +1,52 @@
+.service {
+padding: 96px 0;  
+}
+
+.service-list {
+margin-top: 59px;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(350px ,1fr));
+gap: 30rem;
+@include mobile {
+    grid-template-columns:1fr;
+
+}
+}
+
+
+.service-item {
+padding: 32rem;
+background:#020617 ;
+border-radius: 12rem;
+text-align: center;
+
+		&__img {
+            width: 40rem;
+            height: 40rem;
+            margin-inline: auto;
+            margin-bottom: 32rem;
+            color: #EAB308
+		}
+
+		&__title {
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 158%;
+            text-align: center;
+            color: #f3f4f6;
+            margin-bottom: 16rem;
+            max-width: 204rem;
+            margin-inline: auto;
+           
+		}
+
+		&__desc {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 169%;
+            text-align: center;
+            color: #6b7280;
+		}
+}
